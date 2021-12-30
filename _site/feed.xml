@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Home</title>
+    
+    
+    <description>This website is a virtual proof that I&apos;m awesome</description>
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Publication Feed</title>
+        <description>
+          Adding a second independent feed to Jekyll - 
+          This article is dedicated to all the self-made bloggers and wanna-bees out there looking for a somewhat modern-looking layout and easy-to-use and adaptive blogging setup. If you just like to start writing without many stones in your way build your blog with Jekyll and GitHubPages. Its free, open-source, works right...
+        </description>
+        <pubDate>Thu, 30 Dec 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021-12-30-publication-feed/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-12-30-publication-feed/</guid>
+      </item>
+    
+      <item>
+        <title>Sample blog post</title>
+        <description>
+          Each post also has a subtitle - 
+          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary...
+        </description>
+        <pubDate>Fri, 28 Feb 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-02-28-test-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-02-28-test-markdown/</guid>
+      </item>
+    
+    
+      <item>
+        <title>Approaching Scheduling Problems via a Deep Hybrid Greedy Model and Supervised Learning</title>
+        <description>
+          Scheduling still constitutes a challenging problem, especially for complex problem settings involving due dates and sequence-dependent setups. The majority of existing approaches use heuristics or meta-heuristics, like Genetic Algorithms or Reinforcement Learning. We show that a supervised learning framework can learn and generalize from generated optimal target schedules, which amplifies convergence compared to unsupervised methods. We present a deep hybrid greedy framework, which can predict near-optimal schedules by utilizing the following key mechanisms: (i) Through the interplay between heuristics and a deep neural network our hybrid model can combine the benefits. Specifically, complex patterns from optimal schedules can be learned by a neural network. We reduce the computational costs by outsourcing trivial decisions to heuristics and therefore, allowing consistent decisions during training. (ii) The problem complexity can be reduced, by employing a greedy prediction scheme, where one job at a time is predicted. (iii) We propose a re-scheduling mechanism for idle jobs, which enables long-term cost reduction and renders the framework reactive and dynamic. Through the heuristics and the neural network, our model is real-time capable during inference. We compare our model against prevailing scheduling heuristics and our model outperformed one of them in terms of makespan and lateness minimization. The key purpose of this work is to give a proof of concept, that supervised learning is applicable for complex scheduling problems. - 
+        </description>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pubs/2021-01-01-greedy-scheduler/</link>
+        <guid isPermaLink="true">http://localhost:4000/pubs/2021-01-01-greedy-scheduler/</guid>
+      </item>
+    
+      <item>
+        <title>NeuroEvolution of Augmenting Topologies for Solving a Two-Stage Hybrid Flow Shop Scheduling Problem: A Comparison of Different Solution Strategies</title>
+        <description>
+          The article investigates the application of NeuroEvolution of Augmenting Topologies (NEAT) to generate and parameterize artificial neural networks (ANN) on determining allocation and sequencing decisions in a two-stage hybrid flow shop scheduling environment with family setup times. NEAT is a machine-learning and neural architecture search algorithm, which generates both, the structure and the hyper-parameters of an ANN. Our experiments show that NEAT can compete with state-of-the-art approaches in terms of solution quality and outperforms them regarding computational efficiency. The main contributions of this article are: (i) A comparison of five different strategies, evaluated with 14 different experiments, on how ANNs can be applied for solving allocation and sequencing problems in a hybrid flow shop environment, (ii) a comparison of the best identified NEAT strategy with traditional heuristic and metaheuristic approaches concerning solution quality and computational efficiency. - 
+        </description>
+        <pubDate>Tue, 01 Jun 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/pubs/2021-06-01-neat/</link>
+        <guid isPermaLink="true">http://localhost:4000/pubs/2021-06-01-neat/</guid>
+      </item>
+    
+      <item>
+        <title>Human Action Recognition as part of a Natural Machine Operation Framework</title>
+        <description>
+          The reliability of systems that use machine learning to recognize the human working in an industrial environment is of high importance for the employee safety. we present a framework which is capable of recognizing the persons natural interaction with an industrial machine. We focus on the application of human action recognition in the context of machine operation by skilled workers in industrial or commercial environments. We propose a framework that includes action recognition as part of a software component for understanding behavior. For our use case, we defined an exemplary machine operation workflow which we use to compare five different neural networks in terms of prediction accuracy and real-time capabilities. Moreover, we compare different input shapes as the resolution of input images and the size of the possible 3D-volume in order to study the robustness of the models. For our evaluation, we created our own custom dataset containing six action classes. Our analysis shows that the best model is the I3D with color images, a resolution of 112 x 112 pixels and 16 consecutive frames. The I3D also exhibited the best run-time performance for real-time applications. - 
+        </description>
+        <pubDate>Wed, 01 Sep 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/pubs/2021-09-01-human-action/</link>
+        <guid isPermaLink="true">http://localhost:4000/pubs/2021-09-01-human-action/</guid>
+      </item>
+    
+  </channel>
+</rss>

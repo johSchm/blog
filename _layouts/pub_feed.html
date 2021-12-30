@@ -1,0 +1,51 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div>
+  {% assign pubs = site.pubs | sort: 'date' | reverse %}
+  {% for pub in pubs %}
+
+  <article class="pub-preview">
+
+    <a href="{{ pub.link }}">
+      <h2 class="pub-title">{{ pub.title }}</h2>
+
+      <p class="pub-meta">
+        {% for name in pub.author %}
+        {% if name == site.author %}
+        <b>{{ name }}</b>
+        {% else %}
+        {{ name }}
+        {% endif %}
+        &nbsp;
+        {% endfor %}
+      </p>
+
+      <p class="pub-meta">
+        {% assign date_format = site.date_format_pubs | default: "%B, %Y" %}
+        Published on {{ pub.date | date: date_format }}
+        in {{ pub.conference }}
+      </p>
+
+      {% if pub.abstract %}
+        <h3 class="pub-abstract">
+        {{ pub.abstract }}
+        </h3>
+      {% endif %}
+    </a>
+
+    {% if site.feed_show_tags != false and pub.tags.size > 0 %}
+    <div class="pub-tags">
+      <span>Tags:</span>
+      {% for tag in pub.tags %}
+      <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
+</div>
